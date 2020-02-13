@@ -885,7 +885,7 @@
             </Pin>
             <Pin Id="QRqLba3Fr3AML06shpyKDq" Name="Files" Kind="OutputPin" />
           </Node>
-          <Pad Id="HWDaqWNHylzLPrrLXhSik1" Comment="Size" Bounds="89,500,54,32" ShowValueBox="true" isIOBox="true" Value="1080, 1920">
+          <Pad Id="HWDaqWNHylzLPrrLXhSik1" Comment="Size" Bounds="91,508,54,32" ShowValueBox="true" isIOBox="true" Value="1080, 1920">
             <p:TypeAnnotation LastCategoryFullName="2D" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Vector2" />
             </p:TypeAnnotation>
@@ -978,7 +978,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="OnOpen" />
             </p:NodeReference>
-            <Pin Id="MsFvsszgweQMA7cr0rUMkA" Name="Simulate" Kind="InputPin" DefaultValue="True">
+            <Pin Id="MsFvsszgweQMA7cr0rUMkA" Name="Simulate" Kind="InputPin">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                 <Choice Kind="TypeFlag" Name="Boolean" />
               </p:TypeAnnotation>
@@ -1003,12 +1003,12 @@
           </Node>
           <Pad Id="MA8q5sLMU1ULDvkRVgJOFo" Comment="Loading Finished" Bounds="663,645,35,35" ShowValueBox="true" isIOBox="true" />
           <Pad Id="PvODh5UvyIvLrW5GsBkAV8" Comment="Loading Finished" Bounds="151,643,35,35" ShowValueBox="true" isIOBox="true" />
-          <Pad Id="TvqKXGp5aZNLwmDIZOvdDL" Bounds="587,31,604,270" ShowValueBox="true" isIOBox="true" Value="&lt;!DOCTYPE html&gt;&#xD;&#xA;&lt;html lang=&quot;en&quot;&gt;&#xD;&#xA;&#x9;&lt;head&gt;&#xD;&#xA;&#x9;&#x9;&lt;meta charset=&quot;utf-8&quot; /&gt;&#xD;&#xA;&#x9;&#x9;&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;{0}style.css&quot;&gt;&#xD;&#xA;&#x9;&lt;/head&gt;&#xD;&#xA;  &#x9;&lt;body&gt;&#xD;&#xA;  &#x9;&#x9;&lt;div class=&quot;container&quot;&gt;&#xD;&#xA;  &#x9;&#x9;&#x9;&#x9;&lt;img src=&quot;{0}logo.jpg&quot; width=&quot;75%&quot;&gt;&#xD;&#xA;&#x9;  &#x9;&#x9;&#x9;&lt;h1&gt;vvvv&lt;br/&gt; &amp;ndash; a multipurpose toolkit&lt;/h1&gt;&#xD;&#xA;&#x9;  &#x9;&#x9;&#x9;&lt;p&gt;&#xD;&#xA;&#x9;  &#x9;&#x9;&#x9;&#x9;&lt;em&gt;vvvv&lt;/em&gt; is a hybrid visual/textual live-programming environment for easy prototyping and development.&#xD;&#xA;&#x9;  &#x9;&#x9;&#x9;&#x9;It is designed to facilitate the handling of large media environments with physical interfaces,&#xD;&#xA;&#x9;  &#x9;&#x9;&#x9;&#x9;real-time motion graphics, audio and video that can interact with many users simultaneously.&lt;br/&gt;&#xD;&#xA;&#x9;  &#x9;&#x9;&#x9;&#x9;Responsible for its development is the &lt;em&gt;vvvv group&lt;/em&gt;.&#x9;&#x9;&#xD;&#xA;&#x9;  &#x9;&#x9;&#x9;&lt;/p&gt;&#xD;&#xA;  &#x9;&#x9;&lt;/div&gt;&#xD;&#xA;  &#x9;&lt;/body&gt;  &#xD;&#xA;&lt;/html&gt;">
+          <Pad Id="TvqKXGp5aZNLwmDIZOvdDL" Bounds="582,25,604,270" ShowValueBox="true" isIOBox="true" Value="&lt;!DOCTYPE html&gt;&#xD;&#xA;&lt;html lang=&quot;en&quot;&gt;&#xD;&#xA;&#x9;&lt;head&gt;&#xD;&#xA;&#x9;&#x9;&lt;meta charset=&quot;utf-8&quot; /&gt;&#xD;&#xA;&#x9;&#x9;&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;{0}style.css&quot;&gt;&#xD;&#xA;&#x9;&lt;/head&gt;&#xD;&#xA;  &#x9;&lt;body&gt;&#xD;&#xA;  &#x9;&#x9;&lt;div class=&quot;container&quot;&gt;&#xD;&#xA;  &#x9;&#x9;&#x9;&#x9;&lt;img src=&quot;{0}logo.jpg&quot; width=&quot;75%&quot;&gt;&#xD;&#xA;&#x9;  &#x9;&#x9;&#x9;&lt;h1&gt;vvvv&lt;br/&gt; &amp;ndash; a multipurpose toolkit&lt;/h1&gt;&#xD;&#xA;&#x9;  &#x9;&#x9;&#x9;&lt;p&gt;&#xD;&#xA;&#x9;  &#x9;&#x9;&#x9;&#x9;&lt;em&gt;vvvv&lt;/em&gt; is a hybrid visual/textual live-programming environment for easy prototyping and development.&#xD;&#xA;&#x9;  &#x9;&#x9;&#x9;&#x9;It is designed to facilitate the handling of large media environments with physical interfaces,&#xD;&#xA;&#x9;  &#x9;&#x9;&#x9;&#x9;real-time motion graphics, audio and video that can interact with many users simultaneously.&lt;br/&gt;&#xD;&#xA;&#x9;  &#x9;&#x9;&#x9;&#x9;Responsible for its development is the &lt;em&gt;vvvv group&lt;/em&gt;.&#x9;&#x9;&#xD;&#xA;&#x9;  &#x9;&#x9;&#x9;&lt;/p&gt;&#xD;&#xA;  &#x9;&#x9;&lt;/div&gt;&#xD;&#xA;  &#x9;&lt;/body&gt;  &#xD;&#xA;&lt;/html&gt;">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
           </Pad>
-          <Node Bounds="584,484,65,19" Id="Sj4DH9UJSzSMjxE6qzKW44">
+          <Node Bounds="579,478,65,19" Id="Sj4DH9UJSzSMjxE6qzKW44">
             <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.Collections.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="FromValue" />
@@ -1017,12 +1017,12 @@
             <Pin Id="AaJFGDRViC3MhG1Yb7dNen" Name="Input" Kind="StateInputPin" />
             <Pin Id="BvJVemrAYpKMKdJ6R8srKd" Name="Result" Kind="OutputPin" />
           </Node>
-          <Pad Id="SXnEaQzx8A0M5oPWztsbJR" Comment="Size" Bounds="604,534,54,32" ShowValueBox="true" isIOBox="true" Value="1080, 1920">
+          <Pad Id="SXnEaQzx8A0M5oPWztsbJR" Comment="Size" Bounds="603,534,54,32" ShowValueBox="true" isIOBox="true" Value="1080, 1920">
             <p:TypeAnnotation LastCategoryFullName="2D" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Vector2" />
             </p:TypeAnnotation>
           </Pad>
-          <Node Bounds="584,449,85,19" Id="CD0TO6752sePXDbth5OvTx">
+          <Node Bounds="579,443,85,19" Id="CD0TO6752sePXDbth5OvTx">
             <p:NodeReference LastCategoryFullName="Primitive.String" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="Format" />
@@ -1134,7 +1134,7 @@
             <Pin Id="U1RGfdu8D2MM0f9dmrNzvM" Name="Reset" Kind="ApplyPin" />
             <Pin Id="KkCMSdWJEViPKfXzcxbY34" Name="Value" Kind="OutputPin" />
           </Node>
-          <Node Bounds="69,372,48,19" Id="FzkdKGauP0LMWI107ewf78">
+          <Node Bounds="70,334,48,19" Id="FzkdKGauP0LMWI107ewf78">
             <p:NodeReference LastCategoryFullName="IO" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="ToPath" />
@@ -1142,7 +1142,29 @@
             <Pin Id="LH3lcR568NUMmbwQbcvjtV" Name="Input" Kind="InputPin" />
             <Pin Id="HaCgKg6vaE9MRWe9hvPOUq" Name="Result" Kind="OutputPin" />
           </Node>
-          <ControlPoint Id="U23U7P6VDWROHpBaX5CuFU" Bounds="606,336" />
+          <ControlPoint Id="U23U7P6VDWROHpBaX5CuFU" Bounds="601,330" />
+          <Pad Id="Bnjxi923yatOqYaOOoRNbt" Bounds="533,946,538,116" ShowValueBox="true" isIOBox="true" Value="For more info please refer to:&#xD;&#xA;https://www.nuget.org/packages/NReco.ImageGenerator/&#xD;&#xA;https://wkhtmltopdf.org/&#xD;&#xA;https://wkhtmltopdf.org/usage/wkhtmltopdf.txt">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="UkZe4JMIhq9MqI1pT3RbnY" Comment="Simulate" Bounds="151,321,35,35" ShowValueBox="true" isIOBox="true" Value="False">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="Boolean" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="KpEszhsUhc8QXsjfxpWSrS" Comment="Search Pattern" Bounds="91,367,37,15" ShowValueBox="true" isIOBox="true" Value="*.html">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+          </Pad>
         </Canvas>
         <Patch Id="QURo2XGPrlgOBOR42oQwH5" Name="Create" />
         <Patch Id="Gl1ooMxSQMgOgfh4fwEl47" Name="Update" />
@@ -1183,6 +1205,8 @@
         <Link Id="GrrAhNb6qhoPjIBx0cBg6V" Ids="HJg7dtfhu35OJKr6crs0NY,GcA9qsr6oeJMCBgnf4f8F0" />
         <Link Id="KG5CiJvJmXVNYHyPX3nOp4" Ids="EkHupzi3yVoNAeq6DmQjqU,LH3lcR568NUMmbwQbcvjtV" />
         <Link Id="PKSs5qUXXenLpmXx9IDp7o" Ids="HaCgKg6vaE9MRWe9hvPOUq,UV4Ler7ynQPLaQK8qOcEA6" />
+        <Link Id="IRiYM0W6boUPj8kLwWlKaX" Ids="UkZe4JMIhq9MqI1pT3RbnY,MsFvsszgweQMA7cr0rUMkA" />
+        <Link Id="QXHj0DfXt2kNA0OkQ4TwSe" Ids="KpEszhsUhc8QXsjfxpWSrS,Q1AuCsRg8qdMC8rkmNa1CP" />
       </Patch>
     </Node>
   </Patch>
